@@ -3,7 +3,7 @@ project:
   title:        "Hamming code"      # Project title
   author:       "sowmya"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  description:  "hamming coder for single bit error correction using encoder and decoder"      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -35,14 +35,14 @@ pinout:
   ui[7]: ""
 
   # Outputs
-  uo[0]: "correct_out"
-  uo[1]: "correct_out"
-  uo[2]: "correct_out"
-  uo[3]: "correct_out"
-  uo[4]: "error_out"
-  uo[5]: "error_out"
-  uo[6]: "error_out"
-  uo[7]: "error_out"
+  uo[0]: "correct_out3"
+  uo[1]: "correct_out2"
+  uo[2]: "correct_out1"
+  uo[3]: "correct_out0"
+  uo[4]: "error_out3"
+  uo[5]: "error_out2"
+  uo[6]: "error_out1"
+  uo[7]: "error_out0"
 
   # Bidirectional pins
   uio[0]: ""
